@@ -127,7 +127,7 @@ body {
     border-bottom-right-radius: 10px;
 }
  .key:active {
-    border: 2px solid rgb(238, 238, 238);
+    /*border: 2px solid rgb(238, 238, 238);*/
     color: rgb(19, 15, 15);
     background: white;
 }

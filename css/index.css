@@ -139,17 +139,19 @@ body {
     background: #fac463;
     color: slategrey;
 }
-@media only screen and (min-width : 320px) and (max-width :475px) {
+@media only screen and (min-width : 320px) and (max-width :1024px) {
     .cal {
-        width: 15rem;
-        margin: auto;
+        width: 19rem;
+        top: 70px;
     }
     .body {
-        width: 320%;
+        width: 100%;
+        margin-top: auto;
+    }
+    body {
+        display: flex;
+        justify-content: center;
+        background:linear-gradient(#d59cee, #f7b741);
     }
 }
-@media only screen and (width : 375px){
-    .body {
-      width: 375px;
-    }
-  }
+  
